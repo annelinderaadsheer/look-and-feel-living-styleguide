@@ -509,3 +509,38 @@ article.intro .image {
         font-size: 1.3em;
     }
 }
+
+/* Typografie */
+
+.typografie-avenirroman {
+    font-family: "AvenirRoman";
+    font-size: 0.9231rem;
+  }
+
+.typografie-avenirmedium {
+    font-family: "AvenirMedium";
+    font-size: 0.9231rem;
+  }
+
+  .typografie-avenirblack {
+    font-family: "AvenirBlack";
+    font-size: 0.9231rem;
+  }
+
+  /* .typografie-details-list-h1 {
+    font-size: 0.932rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .typografie-details-list-h2 {
+    font-size: 2.25rem;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+
+  .typografie-details-list-h2 {
+    font-size: 2.0rem;
+    line-height: 1.5;
+    font-weight: 700;
+  } */
