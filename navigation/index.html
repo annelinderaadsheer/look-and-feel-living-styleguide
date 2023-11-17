@@ -36,49 +36,49 @@
                 <ul class="menu-links">
                     <li class="nav-link">
                         <a href="../">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Typografie</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../image/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Image</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../tables/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Tables</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../buttons/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Buttons</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../form/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Form</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a class="active" href="../navigation/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Navigation</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../components/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Components</span>
                         </a>
                     </li>
@@ -93,22 +93,50 @@
             <article class="intro">
                 <h1>Navigation</h1>
                 <hr> <!-- Dit is een lijn -->
-                <p>Hier kun je tekst inzetten</p>
-                <ul>
-                    <li>Tabel</li>
-                    <li>Tabel</li>
-                    <li>Tabel</li>
-                </ul>
-                <img class="image" src="../images/Unknown.jpg" alt="Dit is een foto van niks">
-                <h1>H1 kop</h1>
-                <h2>H2 kop</h2>
-                <h3>H3 kop</h3>
-                <h4>H4 kop</h4>
-                <h5>H5 kop</h5>
-                <h6>H6 kop</h6>
-                <p>Paragraaf</p>
-                <span>Span</span>
             </article>
+            <section class="forms">
+                <img class="image" src="../images/nav.png" alt="Illustratie">
+                <form class="searchForm">
+                    <div class="radioButtons">
+                        <label>
+                            <input type="radio" value="catalog" checked="checked">
+                            Zoeken in de catalogus
+                        </label>
+                        <label>
+                            <input type="radio" value="website">
+                            Zoeken binnen de site
+                        </label>
+                    </div>
+                    <div class="search-wrapper">
+                        <input class="input-field" value="" type="text" name="query"
+                            placeholder="Waar ben je naar op zoek?">
+                    </div>
+                    <button type="submit" class="regularButton">Vind <img class="arrow-right"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMBAMAAACpRTGTAAAAA3NCSVQICAjb4U/gAAAAKlBMVEX///////////////////////////////////////////////////////9q+00tAAAADnRSTlMAESJEVWZ3maq7zN3u/3bG7fkAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAA2SURBVAiZY0hkAIE7ASDy7k0DEHn3ugKIvHtMAETe3QImr4NIoPzdu7cDQLIgfXebQLoWgwgABAEcp+sJB4MAAAAASUVORK5CYII="></button>
+                </form>
+
+                <h2>Code voorbeelden</h2>
+                <hr> <!-- Dit is een lijn -->
+                <div class="codeblock">
+                    <code><span><</span><span class="blue">form</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"search-form"</span><span>></span><br> 
+                        <span class="tab"><</span><span class="blue">div</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"radioButtons"</span><span>></span><br>
+                            <span class="tab-2"><</span><span class="blue">label</span><span>></span><br> 
+                                <span class="tab-3"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"radio"</span> <span class="lightblue">value</span>=<span class="orange">"catalog"</span> <span class="lightblue">checked</span>=<span class="orange">"checked"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Gebruikersnaam"</span><span>></span><br><span class="tab-3">Zoeken in de catalogus</span><br>
+                            <span class="tab-2"><</span><span class="blue">/label</span><span>></span><br>
+                            <span class="tab-2"><</span><span class="blue">label</span><span>></span><br> 
+                                <span class="tab-3"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"radio"</span> <span class="lightblue">value</span>=<span class="orange">"catalog"</span> <span class="lightblue">checked</span>=<span class="orange">"checked"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Gebruikersnaam"</span><span>></span><br><span class="tab-3">Zoeken binnen de site</span><br>
+                            <span class="tab-2"><</span><span class="blue">/label</span><span>></span><br> 
+                        <span class="tab"><</span><span class="blue">/div</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">div</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"search-wrapper"</span><span>></span><br> 
+                            <span class="tab-2"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"text"</span> <span class="lightblue">value</span>=<span class="orange">""</span> <span class="lightblue">name</span>=<span class="orange">"query"</span> <span class="lightblue">class</span>=<span class="orange">"input-field"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Waar ben je naar op zoek?"</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">/div</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">button</span><span>></span> <span class="lightblue">type</span>=<span class="orange">"submit"</span> <span class="lightblue">class</span>=<span class="orange">"regularButton"</span><span>></span>Vind<span><</span><span class="blue">img</span> <span class="lightblue">class</span>=<span class="orange">"arrow-right"</span><span class="lightblue"> src</span>=<span class="orange">"#"</span><span>></span><span><</span><span class="blue">/button</span><span>></span><br>
+                    <span><</span><span class="blue">/form</span><span>></span></code><br><br>
+
+
+                </div>
+                <hr> <!-- Dit is een lijn -->
+            </section>
         </section>
 
     </div>

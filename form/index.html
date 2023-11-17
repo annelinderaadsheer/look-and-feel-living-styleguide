@@ -36,49 +36,49 @@
                 <ul class="menu-links">
                     <li class="nav-link">
                         <a href="../">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Typografie</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../image/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Image</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../tables/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Tables</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../buttons/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Buttons</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a class="active" href="../form/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Form</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../navigation/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Navigation</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="../components/">
-                            <i class='bx bx-chevron-right icon' ></i>
+                            <i class='bx bx-chevron-right icon'></i>
                             <span class="text nav-text">Components</span>
                         </a>
                     </li>
@@ -99,7 +99,7 @@
                     <div class="input-group">
                         <input type="text" id="username" class="input-field" placeholder="Gebruikersnaam">
                     </div>
-        
+
                     <div class="input-group">
                         <input type="password" id="password" class="input-field" placeholder="Wachtwoord">
                     </div>
@@ -117,9 +117,11 @@
                         </label>
                     </div>
                     <div class="search-wrapper">
-                        <input class="input-field" value="" type="text" name="query" placeholder="Waar ben je naar op zoek?">
+                        <input class="input-field" value="" type="text" name="query"
+                            placeholder="Waar ben je naar op zoek?">
                     </div>
-                    <button type="submit" class="regularButton">Vind <img class="arrow-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMBAMAAACpRTGTAAAAA3NCSVQICAjb4U/gAAAAKlBMVEX///////////////////////////////////////////////////////9q+00tAAAADnRSTlMAESJEVWZ3maq7zN3u/3bG7fkAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAA2SURBVAiZY0hkAIE7ASDy7k0DEHn3ugKIvHtMAETe3QImr4NIoPzdu7cDQLIgfXebQLoWgwgABAEcp+sJB4MAAAAASUVORK5CYII="></button>
+                    <button type="submit" class="regularButton">Vind <img class="arrow-right"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMBAMAAACpRTGTAAAAA3NCSVQICAjb4U/gAAAAKlBMVEX///////////////////////////////////////////////////////9q+00tAAAADnRSTlMAESJEVWZ3maq7zN3u/3bG7fkAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAA2SURBVAiZY0hkAIE7ASDy7k0DEHn3ugKIvHtMAETe3QImr4NIoPzdu7cDQLIgfXebQLoWgwgABAEcp+sJB4MAAAAASUVORK5CYII="></button>
                 </form>
 
                 <select name="filters" id="filters">
@@ -167,152 +169,9 @@
 
                 </div>
                 <hr> <!-- Dit is een lijn -->
-            </section>   
+            </section>
         </section>
     </div>
-
-    <style>
-
-        article.intro {
-            padding-top: 2em;
-            width: 80%;   
-            margin: auto;
-        }
-
-        .forms {
-            padding-top: 2rem;
-            width: 80%;
-            margin: auto;
-        }
-
-        /* Start Login  */
-        .input-wrapper {
-            display: flex;
-            gap: 1em;
-
-        }
-        
-        .input-field {
-            width: 100%;
-            height: 45px;
-            border: none;
-            padding: 10px;
-            background-color: #eeeeee;
-            color: gray;
-            outline: none;
-            font-size: 15px;
-            transition: .5s;
-            border-radius: 5px;
-        }
-        /* End Login  */
-
-        .forms h2 {
-            font-size: 2em;
-        }
-
-        /* Start searchForm */
-        .searchForm {
-            display: flex;
-            gap: 1em;
-            margin-top: 2em;
-            margin-bottom: 2em;
-        }
-
-        .radioButtons {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .search-wrapper {
-            width: 50%;
-        }
-
-        /* End searchForm */
-
-        /* Start Filters */
-        select#filters {
-            border-radius: 6px;
-            background-color: #eeeeee;
-            cursor: pointer;
-            transition: var(--tran-05);
-            border: none;
-            padding: 1em;
-            margin-bottom: 2em;
-        
-        }
-        
-        select#filters option {
-            height: 50%;
-            width: 50%;
-            outline: none;
-            border: none;
-            background-color: var(--primary-color-light);
-            color: var(--text-color);
-            border-radius: 6px;
-            font-size: 17px;
-            font-weight: 500;
-            transition: var(--tran-05);
-        }
-        
-        /* End Fiters */
-
-        button.regularButton {
-            width: auto;
-            height: 45px;
-            border: none;
-            color: #FFFFFF;
-            background-color: black;
-            border-radius: 5px;
-            font-size: 17px;
-            font-weight: 500;
-            transition: 0.3s;
-            cursor: pointer;
-            padding-inline: 1rem;
-        }
-
-        .codeblock {
-            border: 1px solid black;
-            padding: 2rem;
-            margin-top: 2rem;
-            background-color: rgb(23, 23,23);
-            border-radius: 5px;
-            color: white;
-        }
-
-        .tab {
-            margin-left: 2em;
-        }
-        .tab-2 {
-            margin-left: 4em;
-        }
-        .tab-3 {
-            margin-left: 6em;
-        }
-
-        code {
-            word-wrap: break-word;
-        }
-
-        .blue {
-            color: rgb(48, 133, 200);
-        }
-        .lightblue {
-            color: rgb(120, 213, 255);
-        }
-        .orange {
-            color: orange;
-        }
-
-        @media screen and (max-width: 1300px) {
-            article.intro {
-                width: 100%;
-            }
-
-            .forms {
-                width: 100%;
-            }
-        }
-    </style>
 
 </body>
 
