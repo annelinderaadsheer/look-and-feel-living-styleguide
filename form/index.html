@@ -91,27 +91,228 @@
     <div class="home">
         <section class="container">
             <article class="intro">
-                <h1>Form</h1>
+                <h1>Forms</h1>
                 <hr> <!-- Dit is een lijn -->
-                <p>Hier kun je tekst inzetten</p>
-                <ul>
-                    <li>Tabel</li>
-                    <li>Tabel</li>
-                    <li>Tabel</li>
-                </ul>
-                <img class="image" src="../images/Unknown.jpg" alt="Dit is een foto van niks">
-                <h1>H1 kop</h1>
-                <h2>H2 kop</h2>
-                <h3>H3 kop</h3>
-                <h4>H4 kop</h4>
-                <h5>H5 kop</h5>
-                <h6>H6 kop</h6>
-                <p>Paragraaf</p>
-                <span>Span</span>
             </article>
-        </section>
+            <section class="forms">
+                <div class="input-wrapper">
+                    <div class="input-group">
+                        <input type="text" id="username" class="input-field" placeholder="Gebruikersnaam">
+                    </div>
+        
+                    <div class="input-group">
+                        <input type="password" id="password" class="input-field" placeholder="Wachtwoord">
+                    </div>
+                </div>
 
+                <form class="searchForm">
+                    <div class="radioButtons">
+                        <label>
+                            <input type="radio" value="catalog" checked="checked">
+                            Zoeken in de catalogus
+                        </label>
+                        <label>
+                            <input type="radio" value="website">
+                            Zoeken binnen de site
+                        </label>
+                    </div>
+                    <div class="search-wrapper">
+                        <input class="input-field" value="" type="text" name="query" placeholder="Waar ben je naar op zoek?">
+                    </div>
+                    <button type="submit" class="regularButton">Vind <img class="arrow-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMBAMAAACpRTGTAAAAA3NCSVQICAjb4U/gAAAAKlBMVEX///////////////////////////////////////////////////////9q+00tAAAADnRSTlMAESJEVWZ3maq7zN3u/3bG7fkAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAA2SURBVAiZY0hkAIE7ASDy7k0DEHn3ugKIvHtMAETe3QImr4NIoPzdu7cDQLIgfXebQLoWgwgABAEcp+sJB4MAAAAASUVORK5CYII="></button>
+                </form>
+
+                <select name="filters" id="filters">
+                    <option value="1">Uitleendatum (aflopend)</option>
+                    <option value="2">Uitleendatum (oplopend)</option>
+                    <option value="3">A-Z</option>
+                    <option value="4">Z-A</option>
+                </select>
+
+                <h2>Code voorbeelden</h2>
+                <hr> <!-- Dit is een lijn -->
+                <div class="codeblock">
+                    <code><span><</span><span class="blue">div</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"input-wrapper"</span><span>></span><br> 
+                        <span class="tab"><</span><span class="blue">div</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"input-group"</span><span>></span><br> 
+                            <span class="tab-2"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"text"</span> <span class="lightblue">id</span>=<span class="orange">"username"</span> <span class="lightblue">class</span>=<span class="orange">"input-field"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Gebruikersnaam"</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">/div</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">div</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"input-group"</span><span>></span><br> 
+                            <span class="tab-2"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"password"</span> <span class="lightblue">id</span>=<span class="orange">"username"</span> <span class="lightblue">class</span>=<span class="orange">"input-field"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Gebruikersnaam"</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">/div</span><span>></span><br>
+                        <span><</span><span class="blue">/div</span><span>></span>
+                    </code><br><br>
+
+                    <code><span><</span><span class="blue">form</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"search-form"</span><span>></span><br> 
+                        <span class="tab"><</span><span class="blue">div</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"radioButtons"</span><span>></span><br>
+                            <span class="tab-2"><</span><span class="blue">label</span><span>></span><br> 
+                                <span class="tab-3"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"radio"</span> <span class="lightblue">value</span>=<span class="orange">"catalog"</span> <span class="lightblue">checked</span>=<span class="orange">"checked"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Gebruikersnaam"</span><span>></span><br><span class="tab-3">Zoeken in de catalogus</span><br>
+                            <span class="tab-2"><</span><span class="blue">/label</span><span>></span><br>
+                            <span class="tab-2"><</span><span class="blue">label</span><span>></span><br> 
+                                <span class="tab-3"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"radio"</span> <span class="lightblue">value</span>=<span class="orange">"catalog"</span> <span class="lightblue">checked</span>=<span class="orange">"checked"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Gebruikersnaam"</span><span>></span><br><span class="tab-3">Zoeken binnen de site</span><br>
+                            <span class="tab-2"><</span><span class="blue">/label</span><span>></span><br> 
+                        <span class="tab"><</span><span class="blue">/div</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">div</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"search-wrapper"</span><span>></span><br> 
+                            <span class="tab-2"><</span><span class="blue">input</span> <span class="lightblue">type</span>=<span class="orange">"text"</span> <span class="lightblue">value</span>=<span class="orange">""</span> <span class="lightblue">name</span>=<span class="orange">"query"</span> <span class="lightblue">class</span>=<span class="orange">"input-field"</span> <span class="lightblue">placeholder</span>=<span class="orange">"Waar ben je naar op zoek?"</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">/div</span><span>></span><br>
+                        <span class="tab"><</span><span class="blue">button</span><span>></span> <span class="lightblue">type</span>=<span class="orange">"submit"</span> <span class="lightblue">class</span>=<span class="orange">"regularButton"</span><span>></span>Vind<span><</span><span class="blue">img</span> <span class="lightblue">class</span>=<span class="orange">"arrow-right"</span><span class="lightblue"> src</span>=<span class="orange">"#"</span><span>></span><span><</span><span class="blue">/button</span><span>></span><br>
+                    <span><</span><span class="blue">/form</span><span>></span></code><br><br>
+
+                    <code><span><</span><span class="blue">select</span><span>></span> <span class="lightblue">name</span>=<span class="orange">"filters"</span><span>></span> <span class="lightblue">id</span>=<span class="orange">"filters"</span><span>></span><br> 
+                            <span class="tab-2"><</span><span class="blue">option</span> <span class="lightblue">value</span>=<span class="orange">"1"</span><span>></span>Uitleendatum (aflopend)<span><</span><span class="blue">/option</span><span>></span><br>
+                            <span class="tab-2"><</span><span class="blue">option</span> <span class="lightblue">value</span>=<span class="orange">"2"</span><span>></span>Uitleendatum (oplopend)<span><</span><span class="blue">/option</span><span>></span><br>
+                            <span class="tab-2"><</span><span class="blue">option</span> <span class="lightblue">value</span>=<span class="orange">"3"</span><span>></span>A-Z<span><</span><span class="blue">/option</span><span>></span><br>
+                            <span class="tab-2"><</span><span class="blue">option</span> <span class="lightblue">value</span>=<span class="orange">"4"</span><span>></span>Z-A<span><</span><span class="blue">/option</span><span>></span><br>
+                    <span><</span><span class="blue">/select</span><span>></span><br></code>
+
+
+                </div>
+                <hr> <!-- Dit is een lijn -->
+            </section>   
+        </section>
     </div>
+
+    <style>
+
+        article.intro {
+            padding-top: 2em;
+            width: 80%;   
+            margin: auto;
+        }
+
+        .forms {
+            padding-top: 2rem;
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Start Login  */
+        .input-wrapper {
+            display: flex;
+            gap: 1em;
+
+        }
+        
+        .input-field {
+            width: 100%;
+            height: 45px;
+            border: none;
+            padding: 10px;
+            background-color: #eeeeee;
+            color: gray;
+            outline: none;
+            font-size: 15px;
+            transition: .5s;
+            border-radius: 5px;
+        }
+        /* End Login  */
+
+        .forms h2 {
+            font-size: 2em;
+        }
+
+        /* Start searchForm */
+        .searchForm {
+            display: flex;
+            gap: 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+
+        .radioButtons {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .search-wrapper {
+            width: 50%;
+        }
+
+        /* End searchForm */
+
+        /* Start Filters */
+        select#filters {
+            border-radius: 6px;
+            background-color: #eeeeee;
+            cursor: pointer;
+            transition: var(--tran-05);
+            border: none;
+            padding: 1em;
+            margin-bottom: 2em;
+        
+        }
+        
+        select#filters option {
+            height: 50%;
+            width: 50%;
+            outline: none;
+            border: none;
+            background-color: var(--primary-color-light);
+            color: var(--text-color);
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: 500;
+            transition: var(--tran-05);
+        }
+        
+        /* End Fiters */
+
+        button.regularButton {
+            width: auto;
+            height: 45px;
+            border: none;
+            color: #FFFFFF;
+            background-color: black;
+            border-radius: 5px;
+            font-size: 17px;
+            font-weight: 500;
+            transition: 0.3s;
+            cursor: pointer;
+            padding-inline: 1rem;
+        }
+
+        .codeblock {
+            border: 1px solid black;
+            padding: 2rem;
+            margin-top: 2rem;
+            background-color: rgb(23, 23,23);
+            border-radius: 5px;
+            color: white;
+        }
+
+        .tab {
+            margin-left: 2em;
+        }
+        .tab-2 {
+            margin-left: 4em;
+        }
+        .tab-3 {
+            margin-left: 6em;
+        }
+
+        code {
+            word-wrap: break-word;
+        }
+
+        .blue {
+            color: rgb(48, 133, 200);
+        }
+        .lightblue {
+            color: rgb(120, 213, 255);
+        }
+        .orange {
+            color: orange;
+        }
+
+        @media screen and (max-width: 1300px) {
+            article.intro {
+                width: 100%;
+            }
+
+            .forms {
+                width: 100%;
+            }
+        }
+    </style>
 
 </body>
 

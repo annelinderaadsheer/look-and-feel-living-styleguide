@@ -1,118 +1,229 @@
 <!DOCTYPE html>
 <html lang="nl">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="../styles/style.css">
+        <!-- Link to CSS -->
+        <link rel="stylesheet" href="../styles/style.css">
 
-    <!-- Link to boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Link to boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- Link to JavaScript script -->
-    <script src="../scripts/script.js" defer></script>
+        <!-- Link to JavaScript script -->
+        <script src="../scripts/script.js" defer></script>
 
-    <title>Mijn OBA - Welkom</title>
-</head>
+        <title>Mijn OBA - Welkom</title>
+    </head>
 
-<body>
-    <nav class="sidebar close">
-        <header>
-            <div class="image-text">
-                <span class="image">
-                    <div><img src="../images/oba_20.png" alt=""></div>
-                </span>
+    <body>
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <div><img src="../images/oba_20.png" alt=""></div>
+                    </span>
+                </div>
+
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="../">
+                                <i class='bx bx-chevron-right icon' ></i>
+                                <span class="text nav-text">Typografie</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="../image/">
+                                <i class='bx bx-chevron-right icon' ></i>
+                                <span class="text nav-text">Image</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="../tables/">
+                                <i class='bx bx-chevron-right icon' ></i>
+                                <span class="text nav-text">Tables</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a class="active" href="../buttons/">
+                                <i class='bx bx-chevron-right icon' ></i>
+                                <span class="text nav-text">Buttons</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="../form/">
+                                <i class='bx bx-chevron-right icon' ></i>
+                                <span class="text nav-text">Form</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="../navigation/">
+                                <i class='bx bx-chevron-right icon' ></i>
+                                <span class="text nav-text">Navigation</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="../components/">
+                                <i class='bx bx-chevron-right icon' ></i>
+                                <span class="text nav-text">Components</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-        <div class="menu-bar">
-            <div class="menu">
+        </nav>
 
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="../">
-                            <i class='bx bx-chevron-right icon' ></i>
-                            <span class="text nav-text">Typografie</span>
-                        </a>
-                    </li>
+        <div class="home">
+            <section class="container">
+                <article class="intro">
+                    <h1>Buttons</h1>
+                    <hr> <!-- Dit is een lijn -->
+                </article>
+                <div class="buttons">
+                    <div class="button-container">
+                        <a href="#"><button class="loginButton">Inloggen</button></a>
+                        <a href="#"><button class="regularButton">Ontdek meer <img class="arrow-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMBAMAAACpRTGTAAAAA3NCSVQICAjb4U/gAAAAKlBMVEX///////////////////////////////////////////////////////9q+00tAAAADnRSTlMAESJEVWZ3maq7zN3u/3bG7fkAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAA2SURBVAiZY0hkAIE7ASDy7k0DEHn3ugKIvHtMAETe3QImr4NIoPzdu7cDQLIgfXebQLoWgwgABAEcp+sJB4MAAAAASUVORK5CYII="></button></a>
+                        <a href="#"><button class="textButton">Lees meer nieuws van de OBA <img class="arrow-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAYElEQVQoz2OQl5f/v3//fof///8z4MMgACL/x8fHL3z//r0AQYUgzM/P/3H+/PkJBBXCsL29/cH79+8rEFQIw/X19Y3UUQiy+syZMyZ4PdPf31+A1zP+/v4b8QYPsQEOANyS1Pq5h542AAAAAElFTkSuQmCC"></button></a>
+                    </div>
+                    <h2>Code voorbeelden</h2>
+                    <hr> <!-- Dit is een lijn -->
+                    <div class="codeblock">
+                        <code><span><</span><span class="blue">button</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"loginButton"</span><span>></span>Inloggen<span><</span><span class="blue">/button</span><span>></span></code><br>
+                        <code><span><</span><span class="blue">button</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"regularButton"</span><span>></span>Ontdek meer<span><</span><span class="blue">img</span> <span class="lightblue">class</span>=<span class="orange">"arrow-right"</span><span class="lightblue"> src</span>=<span class="orange">"#"</span><span>></span><span><</span><span class="blue">/button</span><span>></span></code><br>
+                        <code><span><</span><span class="blue">button</span><span>></span> <span class="lightblue">class</span>=<span class="orange">"textButton"</span><span>></span>Lees meer nieuws van de OBA<span><</span><span class="blue">img</span> <span class="lightblue">class</span>=<span class="orange">"arrow-right"</span><span class="lightblue"> src</span>=<span class="orange">"#"</span><span>></span><span><</span><span class="blue">/button</span><span>></span></code>
+                    </div>
+                    <hr> <!-- Dit is een lijn -->
+                </div>
 
-                    <li class="nav-link">
-                        <a href="../image/">
-                            <i class='bx bx-chevron-right icon' ></i>
-                            <span class="text nav-text">Image</span>
-                        </a>
-                    </li>
+                    
+            </section>
 
-                    <li class="nav-link">
-                        <a href="../tables/">
-                            <i class='bx bx-chevron-right icon' ></i>
-                            <span class="text nav-text">Tables</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a class="active" href="../buttons/">
-                            <i class='bx bx-chevron-right icon' ></i>
-                            <span class="text nav-text">Buttons</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../form/">
-                            <i class='bx bx-chevron-right icon' ></i>
-                            <span class="text nav-text">Form</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../navigation/">
-                            <i class='bx bx-chevron-right icon' ></i>
-                            <span class="text nav-text">Navigation</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../components/">
-                            <i class='bx bx-chevron-right icon' ></i>
-                            <span class="text nav-text">Components</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
 
-    </nav>
+        <style>
 
-    <div class="home">
-        <section class="container">
-            <article class="intro">
-                <h1>Buttons</h1>
-                <hr> <!-- Dit is een lijn -->
-                <p>Hier kun je tekst inzetten</p>
-                <ul>
-                    <li>Tabel</li>
-                    <li>Tabel</li>
-                    <li>Tabel</li>
-                </ul>
-                <img class="image" src="../images/Unknown.jpg" alt="Dit is een foto van niks">
-                <h1>H1 kop</h1>
-                <h2>H2 kop</h2>
-                <h3>H3 kop</h3>
-                <h4>H4 kop</h4>
-                <h5>H5 kop</h5>
-                <h6>H6 kop</h6>
-                <p>Paragraaf</p>
-                <span>Span</span>
-            </article>
-        </section>
+            article.intro {
+                padding-top: 2em;
+                width: 80%;   
+                margin: auto;
+            }
 
-    </div>
+            .buttons {
+                padding-top: 2rem;
+                width: 80%;
+                margin: auto;
+            }
+            .button-container {
+                width: 50%;
+            }
 
-</body>
+            .buttons h2 {
+                font-size: 2em;
+            }
+
+            button.loginButton {
+                width: 100%;
+                height: 45px;
+                border: none;
+                color: #FFFFFF;
+                background-color: var(--primary-color);
+                border-radius: 5px;
+                font-size: 17px;
+                font-weight: 500;
+                transition: 0.3s;
+                cursor: pointer;
+                margin-bottom: 1em;
+            }
+
+            button.loginButton:hover {
+                background-color: var(--primary-color-light);
+                color: var(--text-color)
+            }
+
+            button.regularButton {
+                width: 100%;
+                height: 45px;
+                border: none;
+                color: #FFFFFF;
+                background-color: black;
+                border-radius: 5px;
+                font-size: 17px;
+                font-weight: 500;
+                transition: 0.3s;
+                cursor: pointer;
+                margin-bottom: 1em;
+            }
+
+            button.regularButton:hover {
+                background-color: #454545;
+            }
+
+            button.textButton {            
+                width: 100%;
+                height: 45px;
+                border: none;
+                color: #000;
+                font-size: 17px;
+                text-decoration: underline;
+                cursor: pointer;
+                margin-bottom: 3em;
+            }
+
+            .arrow-right {
+                padding-left: 0.2em;
+            }
+
+            .codeblock {
+                border: 1px solid black;
+                padding: 2rem;
+                margin-top: 2rem;
+                background-color: rgb(23, 23,23);
+                border-radius: 5px;
+                color: white;
+            }
+
+            code {
+                word-wrap: break-word;
+            }
+
+            .blue {
+                color: rgb(48, 133, 200);
+            }
+            .lightblue {
+                color: rgb(120, 213, 255);
+            }
+            .orange {
+                color: orange;
+            }
+
+            @media screen and (max-width: 1300px) {
+                article.intro {
+                    width: 100%;
+                }
+
+                .buttons {
+                    width: 100%;
+                }
+                .button-container {
+                    width: 100%;
+                }
+            }
+        </style>
+    </body>
 
 </html>
